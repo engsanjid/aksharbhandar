@@ -20,7 +20,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="bn">
       <head>
-        {/* Meta Pixel Code */}
         <Script
           id="meta-pixel"
           strategy="afterInteractive"
@@ -34,14 +33,12 @@ export default function RootLayout({ children }) {
               t.src=v;s=b.getElementsByTagName(e)[0];
               s.parentNode.insertBefore(t,s)}(window, document,'script',
               'https://connect.facebook.net/en_US/fbevents.js');
-
-              fbq('init', 'YOUR_PIXEL_ID_HERE');
+              fbq('init', '851709154586612');
               fbq('track', 'PageView');
             `,
           }}
         />
       </head>
-
       <body>{children}</body>
     </html>
   );
