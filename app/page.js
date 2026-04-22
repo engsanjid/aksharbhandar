@@ -445,7 +445,7 @@ function OrderForm({ showToast }) {
       </div>
       <div>
         <label style={labelStyle}>মোবাইল নম্বর *</label>
-        <input required type="tel" name="phone" placeholder="01XXXXXXXXX" style={inputStyle} />
+        <input required type="tel" name="name" placeholder="01XXXXXXXXX" style={inputStyle} />
       </div>
       <div>
         <label style={labelStyle}>সম্পূর্ণ ঠিকানা *</label>

@@ -39,7 +39,6 @@ Landing page includes:
 * Hero Section
 * Product Showcase
 * Benefits Section
-* Customer Reviews
 * FAQ
 * Order Form (Cash on Delivery)
 
@@ -60,7 +59,7 @@ Landing page includes:
 ## 📞 Contact
 
 For business inquiries:
-📱 01XXXXXXXXX
+📱 01851937465
 
 ---
 
