@@ -444,9 +444,18 @@ function OrderForm({ showToast }) {
         <input required name="name" placeholder="পূর্ণ নাম লিখুন" style={inputStyle} />
       </div>
       <div>
-        <label style={labelStyle}>মোবাইল নম্বর *</label>
-        <input required type="tel" name="name" placeholder="01XXXXXXXXX" style={inputStyle} />
-      </div>
+  <label style={labelStyle}>মোবাইল নম্বর *</label>
+  <input
+    required
+    type="text"
+    name="phone"
+    inputMode="numeric"
+    placeholder="01XXXXXXXXX"
+    pattern="[0-9]{11}"
+    title="১১ সংখ্যার মোবাইল নম্বর দিন"
+    style={inputStyle}
+  />
+</div>
       <div>
         <label style={labelStyle}>সম্পূর্ণ ঠিকানা *</label>
         <textarea required rows={3} name="address" placeholder="বাড়ি নং, রাস্তা, এলাকা, জেলা" style={{ ...inputStyle, resize: "none" }} />
